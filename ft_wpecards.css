@@ -1,0 +1,67 @@
+#ft_wpecards_image_select_list{
+	width:300px;
+}
+
+.ft_wpecards_image_select_item {
+	list-style:none;
+	display:block;
+	float:left;
+	padding-right:10px;
+}
+
+.ft_wpecards_image_select_item span {
+	display:block;
+	text-align:center;
+}
+
+.entry #ft_wpecards_image_select_list li:before {
+	content: none;
+}
+
+#ft_wpecards_sender_recipient_info {
+	clear:left;
+}
+
+ul#ft_wpecards_sender , ul#ft_wpecards_recipient {
+	list-style:none;
+	float:left;
+	width:180px;
+}
+
+.ft_wpecards_rname_item , .ft_wpecards_remail_item , 
+.ft_wpecards_rname_field , .ft_wpecards_remail_field , 
+.ft_wpecards_sname_item , .ft_wpecards_semail_item , 
+.ft_wpecards_sname_field , .ft_wpecards_semail_field {
+	float:left;
+	clear:left;
+}
+
+.entry form {
+	text-align:left;
+}
+
+.ft_wpecards_image_instructions, .ft_wpecards_message_instructions {
+	font-weight:bold;
+}
+
+#ft_wpecards_message {
+	width:300px;
+	height:100px;
+}
+
+#ft_wpecards_message_group {
+	float:left;
+	clear:left;
+	width:250px;
+	margin-left:40px;
+}
+
+.ft_wpecards_error_item {
+	color:red;
+}
+#ft_wpecards_body{
+	background: #fff;
+	border: 2px solid #404040;
+	padding: 10px;
+	float:left;
+}
